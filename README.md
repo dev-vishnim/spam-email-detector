@@ -129,8 +129,7 @@ The app opens at <http://localhost:8501>.
 4. Copy the new `.pkl` files into `model/`. Keep the scikit-learn version in `requirements.txt` in sync with the one you trained with.
 
 ## Deployment
-Deploy for free on [Streamlit Community Cloud](https://share.streamlit.io):
-sign in with GitHub, choose **Create app**, select this repository, branch `main`, main file `app.py`, then **Deploy**.
+Use free on [Streamlit Community Cloud](https://spam-email-detector-ghbrbphguogfjkfdsiode3.streamlit.app):
 
 ## Troubleshooting
 | Problem | Fix |
