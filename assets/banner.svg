@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Spam Email Detector</title>
+  <desc id="d">Banner for a Random Forest spam classifier with a Streamlit interface</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#151a3d"/>
+      <stop offset="1" stop-color="#2a1458"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6366f1" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="300" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle cx="190" cy="150" r="170" fill="url(#glow)"/>
+
+    <!-- decision-tree motif on the right -->
+    <g stroke="url(#accent)" stroke-width="2" fill="none" opacity="0.55">
+      <path d="M1010 60 L930 130 M1010 60 L1090 130 M930 130 L890 205 M930 130 L970 205 M1090 130 L1050 205 M1090 130 L1130 205 M890 205 L865 262 M890 205 L915 262 M1130 205 L1105 262 M1130 205 L1155 262"/>
+    </g>
+    <g fill="#0b1020" stroke="url(#accent)" stroke-width="2">
+      <circle cx="1010" cy="60" r="9"/><circle cx="930" cy="130" r="8"/><circle cx="1090" cy="130" r="8"/>
+      <circle cx="890" cy="205" r="7"/><circle cx="970" cy="205" r="7"/><circle cx="1050" cy="205" r="7"/><circle cx="1130" cy="205" r="7"/>
+    </g>
+    <g fill="#22d3ee"><circle cx="865" cy="262" r="5"/><circle cx="970" cy="205" r="3"/><circle cx="1155" cy="262" r="5"/></g>
+    <g fill="#f87171"><circle cx="915" cy="262" r="5"/><circle cx="1105" cy="262" r="5"/></g>
+
+    <!-- envelope icon -->
+    <g transform="translate(95 100)">
+      <rect width="190" height="130" rx="16" fill="#0b1020" stroke="url(#accent)" stroke-width="4"/>
+      <path d="M8 14 L95 80 L182 14" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="165" cy="22" r="22" fill="#ef4444"/>
+      <text x="165" y="31" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#fff">!</text>
+    </g>
+
+    <!-- text -->
+    <text x="330" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#f8fafc" letter-spacing="1">SPAM EMAIL</text>
+    <text x="330" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="url(#accent)" letter-spacing="1">DETECTOR</text>
+    <text x="332" y="242" font-family="Consolas, Menlo, monospace" font-size="19" fill="#94a3b8">Random Forest  ·  15 features  ·  Streamlit UI</text>
+
+    <!-- scanning line -->
+    <rect x="0" y="0" width="1200" height="3" fill="#22d3ee" opacity="0.5">
+      <animate attributeName="y" values="0;297;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1" y="1" width="1198" height="298" rx="20" fill="none" stroke="url(#accent)" stroke-opacity="0.5" stroke-width="2"/>
+  </g>
+</svg>

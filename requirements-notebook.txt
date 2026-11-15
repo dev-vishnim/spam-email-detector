@@ -1,0 +1,6 @@
+# Extra packages needed only to re-run notebooks/Random_Forest_Spam_Classification.ipynb
+-r requirements.txt
+imbalanced-learn>=0.12
+matplotlib>=3.8
+seaborn>=0.13
+jupyter>=1.0
