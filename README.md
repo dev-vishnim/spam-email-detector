@@ -53,7 +53,7 @@ expects and returns a spam probability and verdict.
 |---|---|---|
 | ![spam](docs/images/spam-result.png) | ![Normal email result](docs/images/non-spam-result.png)| ![model](docs/images/model-tab.png) | ![Test performance](docs/images/test-perf.png) |
 
-**Live app:** _add your Streamlit Community Cloud link here_
+**Live app:** https://spam-email-detector-ghbrbphguogfjkfdsiode3.streamlit.app
 
 ## How it works
 1. The user pastes an email into the app.
