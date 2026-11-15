@@ -1,0 +1,16 @@
+Rank,Selected Feature
+1,char_freq_exclamation
+2,char_freq_dollar
+3,word_freq_remove
+4,word_freq_free
+5,capital_run_length_average
+6,word_freq_hp
+7,word_freq_your
+8,capital_run_length_longest
+9,capital_run_length_total
+10,word_freq_our
+11,word_freq_you
+12,word_freq_george
+13,word_freq_hpl
+14,word_freq_000
+15,word_freq_edu
